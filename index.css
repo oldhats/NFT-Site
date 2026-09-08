@@ -1,60 +1,84 @@
-body{
-    font-size: 16px;
-    color: #2b283a;
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
+/* all the styling needed for selectors */
+body {
+  font-size: 16px;
+  color: #2b283a;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
-header{
-    background-color: #5f29a3;
-    padding: 45px 0;
+header {
+  background-color: #5f29a3;
 }
 
-
-h1{
-    color: whitesmoke;
-    font-size: 36px;
-    margin: 0;
+footer {
+  text-align: center;
+  color: #5f29a3;
 }
 
-h2{
-    margin-top: 0;
+h1 {
+  color: whitesmoke;
+  font-size: 36px;
+  margin: 0;
 }
 
-h3{
-    color: #d0aaff;
-    font-size: 20px;
-    margin:0;
+h2 {
+  margin-top: 0;
 }
 
-a{
-    color: #ef5839;
-    text-decoration: underline dotted; 
+h3 {
+  color: #d0aaff;
+  font-size: 20px;
+  margin: 0;
 }
 
-a:hover{
-    color: #d4b44c;
+/* allows for nicer styling of text links */
+
+a {
+  color: #ef5839;
+  text-decoration: underline dotted;
 }
 
-a:active{
-    color: #d4b44c;
+a:hover,
+a:active {
+  color: #d4b44c;
 }
 
-section{
-    padding: 45px 0;
-    margin: 0px;
+section,
+footer,
+header {
+  padding: 45px 0;
 }
 
-main {
-    margin: 0px;
+/* to center everything */
 
+section,
+main,
+.section-two {
+  margin: 0px;
 }
 
 .container {
-    width: 620px;
-    margin: auto;
+  width: 620px;
+  margin: auto;
 }
 
-.main-image{
-    width:100%;
+.section-two {
+  background-color: #5f29a3;
+  color: whitesmoke;
+  margin: 0px;
+}
+
+.imgcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* make sure the img doesnt overtake the screen */
+.main-image {
+  width: 100%;
+}
+
+.imgs {
+  width: 300px;
+  border-radius: 4.6px;
 }
