@@ -31,16 +31,46 @@ h3 {
   margin: 0;
 }
 
-/* allows for nicer styling of text links */
+p {
+  line-height: 23px;
+}
+
+/* allows for nicer styling of text links / buttons */
 
 a {
   color: #ef5839;
-  text-decoration: underline dotted;
 }
 
-a:hover,
-a:active {
-  color: #d4b44c;
+.button-color {
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.button-color:hover {
+  background-color: #f3e885;
+  color: #2b283a;
+}
+
+.buy-btn {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.inf-btn {
+  background-color: #d0aaff;
+  color: #5f29a3;
+}
+
+.abt-btn {
+  background-color: whitesmoke;
+  color: #5f29a3;
+}
+
+.cont-btn {
+  background-color: #f0e0ff;
+  color: #5f29a3;
 }
 
 section,
@@ -65,7 +95,6 @@ main,
 .section-two {
   background-color: #5f29a3;
   color: whitesmoke;
-  margin: 0px;
 }
 
 .imgcontainer {
